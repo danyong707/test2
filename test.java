@@ -14,8 +14,8 @@ public class ApplicationConfig {
 
     @Bean
     public DistributedLock DistributedLock() throws Exception{
-        return new DistributedLock(zookeeperUrl, "sgcai-flyinglines-translate-editer-core");
+        
+        
+        return new    DistributedLock(zookeeperUrl, "sgcai--flyinglines-translate-editer-core");
     }
-    
-    
 }
